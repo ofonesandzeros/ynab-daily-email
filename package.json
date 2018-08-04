@@ -1,0 +1,20 @@
+{
+  "name": "ynab-daily-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gmail-send": "^1.2.14",
+    "handlebars": "^4.0.11",
+    "moment": "^2.22.2",
+    "numeral": "^2.0.6",
+    "ramda": "^0.25.0",
+    "ynab": "^1.2.0"
+  }
+}
